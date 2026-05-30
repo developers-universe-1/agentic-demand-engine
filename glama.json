@@ -1,0 +1,11 @@
+{
+  "name": "mcp-demand-engine",
+  "description": "MCP-native demand generation with LinkedIn signal detection, ICP scoring, and CRM routing.",
+  "repository": "https://github.com/developers-universe-1/agentic-demand-engine",
+  "license": "MIT",
+  "install": {
+    "claude": "claude mcp add mcp-demand-engine npx -y ts-node src/mcp/server.ts",
+    "cursor": "Add to Cursor MCP settings: command: npx -y ts-node src/mcp/server.ts",
+    "generic": "npx -y ts-node src/mcp/server.ts"
+  }
+}

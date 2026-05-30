@@ -1,7 +1,28 @@
 {
-  "name": "prospectlens",
+  "name": "mcp-demand-engine",
   "version": "1.0.0",
-  "private": true,
+  "description": "MCP-native demand generation server. Expose LinkedIn signal detection, ICP scoring, contact enrichment, and CRM routing as typed MCP tools.",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "demand-gen",
+    "linkedin",
+    "icp-scoring",
+    "apollo",
+    "salesforce",
+    "hubspot",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developers-universe-1/agentic-demand-engine.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
